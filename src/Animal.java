@@ -28,10 +28,13 @@ class Pet{
         return legs;
     }
 }
+
 public class Animal {
 
     public static void main(String[] args) {
     Pet Dog=new Pet("Puppy",5,4,"RED");
         System.out.println(Dog.getName());
+        System.out.println(Dog.getAge());
+        System.out.println("The name of the dog is "+Dog.getName()+" Age is "+Dog.getAge());
     }
 }
