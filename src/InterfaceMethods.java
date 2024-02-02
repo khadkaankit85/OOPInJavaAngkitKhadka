@@ -1,4 +1,4 @@
-public class AbstractMethods2 {
+public class InterfaceMethods {
     public static void main(String[] args) {
         interface Cars{
             public void tireCount();
